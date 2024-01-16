@@ -1,0 +1,22 @@
+.modal {
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.modal-background {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 4;
+  background-color: rgba(34, 25, 25, 0.332);
+}

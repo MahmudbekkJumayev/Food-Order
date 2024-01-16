@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(7, 29, 7);
+}
+
+.container {
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 50px;
+}
+
+input {
+  outline: 1px solid transparent;
+  border: 1px solid transparent;
+  font-size: 17px;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+button {
+  outline: 1px solid transparent;
+  border: 1px solid transparent;
+  font-size: 17px;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.btn {
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}

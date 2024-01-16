@@ -1,0 +1,47 @@
+.footer {
+  background-color: rgba(247, 240, 22, 0.987);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.social-media {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.social-media > li {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgb(186, 85, 18);
+  color: white;
+  cursor: pointer;
+}
+
+.social-media > li:first-child {
+  background-color: rgb(16, 86, 205);
+}
+
+.social-media > li:last-child {
+  background-color: rgb(235, 24, 9);
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+}

@@ -1,0 +1,34 @@
+.card-box {
+  width: 300px;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.food-img {
+  width: 100%;
+  height: 170px;
+}
+
+.food-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.food-name {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 700;
+}
+
+.food-price {
+  font-size: 18px;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.food-order-btn:hover {
+  background-color: rgb(49, 49, 223);
+}

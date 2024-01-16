@@ -1,0 +1,50 @@
+.box {
+  padding: 20px 25px;
+}
+
+.table,
+.tbody,
+.item,
+.item td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+.thead > th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 10px;
+  width: 110px;
+}
+
+.item > td {
+  width: 110px;
+  font-size: 15px;
+  font-weight: 600;
+  color: red;
+}
+
+.overal {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  gap: 10px;
+}
+
+.overal-price {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: green;
+}
+
+.to-order {
+  background-color: blue;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.to-order:hover {
+  background-color: rgb(62, 62, 225);
+}
